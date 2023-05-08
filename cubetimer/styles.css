@@ -1,0 +1,52 @@
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body {
+    background: rgb(145, 145, 145);
+    background: linear-gradient(
+        0deg,
+        rgba(145, 145, 145, 1) 0%,
+        rgba(80, 80, 80, 1) 25%,
+        rgba(0, 0, 0, 1) 100%
+    );
+    background-attachment: fixed;
+}
+.container {
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 300px;
+    width: 700px;
+    border-radius: 20px;
+    background: rgb(252, 176, 69);
+    background: linear-gradient(
+        90deg,
+        rgba(252, 176, 69, 1) 0%,
+        rgba(37, 11, 11, 1) 58%,
+        rgba(131, 58, 180, 1) 100%
+    );
+}
+.timerDisplay {
+    background-color: lightgray;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 200px;
+    font-size: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 40px white;
+}
